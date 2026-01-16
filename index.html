@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/256px-Instagram_logo.svg.png" alt="Instagram Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="header-icons">
+                <img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Home">
+                <img src="https://img.icons8.com/ios-filled/50/000000/paper-plane.png" alt="Messages">
+                <img src="https://img.icons8.com/ios-filled/50/000000/compass.png" alt="Explore">
+                <img src="https://img.icons8.com/ios-filled/50/000000/hearts.png" alt="Notifications">
+                <img src="https://img.icons8.com/ios-filled/50/000000/user.png" alt="Profile">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="feed">
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User Avatar" class="avatar">
+                    <span class="username">user1</span>
+                </div>
+                <img src="https://picsum.photos/400/400?random=1" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn" data-liked="false">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/hearts.png" alt="Like">
+                    </button>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/speech-bubble.png" alt="Comment">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/paper-plane.png" alt="Share">
+                </div>
+                <div class="post-info">
+                    <span class="likes">42 likes</span>
+                    <p><strong>user1</strong> Beautiful sunset! 🌅</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User Avatar" class="avatar">
+                    <span class="username">user2</span>
+                </div>
+                <img src="https://source.unsplash.com/random/400x400/?city" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn" data-liked="false">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/hearts.png" alt="Like">
+                    </button>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/speech-bubble.png" alt="Comment">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/paper-plane.png" alt="Share">
+                </div>
+                <div class="post-info">
+                    <span class="likes">78 likes</span>
+                    <p><strong>user2</strong> City lights at night! 🏙️</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="User Avatar" class="avatar">
+                    <span class="username">user3</span>
+                </div>
+                <img src="https://picsum.photos/400/400?random=3" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn" data-liked="false">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/hearts.png" alt="Like">
+                    </button>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/speech-bubble.png" alt="Comment">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/paper-plane.png" alt="Share">
+                </div>
+                <div class="post-info">
+                    <span class="likes">56 likes</span>
+                    <p><strong>user3</strong> Delicious pasta! 🍝</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
