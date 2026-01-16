@@ -39,4 +39,14 @@ Instagram-Clone/
 
 -----
 
+# ▶️ How to Run the Project
+
+1. Download or clone the repository:
+   ```bash
+   git clone https://github.com/your-username/instagram-clone.git
+Open the project folder.
+
+Run the project by opening index.html in your browser.
+
+----
 
