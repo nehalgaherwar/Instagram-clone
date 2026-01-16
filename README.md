@@ -30,3 +30,13 @@ This project recreates the basic UI and functionality of Instagram’s feed, inc
 
 ## 📂 Project Structure
 
+Instagram-Clone/                                                
+│                                                                                
+├── index.html # Main HTML file                                                        
+├── styles.css # Styling file                                                                              
+├── script.js # JavaScript functionality                                                        
+└── README.md # Project documentatio                                              
+
+-----
+
+
