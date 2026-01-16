@@ -50,3 +50,33 @@ Run the project by opening index.html in your browser.
 
 ----
 
+# 📌 Future Improvements
+
+Add login & signup page
+
+Comment section functionality
+
+Backend integration
+
+Real-time likes & posts
+
+Dark mode 🌙
+
+------
+
+# 🙌 Acknowledgements
+
+Instagram UI inspiration
+
+Icons by Icons8
+
+Images from Picsum, Unsplash, and RandomUser API
+
+------
+
+# 👨‍💻 Author
+
+Nehal Gaherwar
+Aspiring Software Developer 🚀
+
+If you like this project, don’t forget to ⭐ the repository!
